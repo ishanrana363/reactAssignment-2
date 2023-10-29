@@ -1,0 +1,40 @@
+.counterApp{
+    margin-top:250px;
+    width: 400px;
+    height: auto;
+    background-color: gold;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0,  
+    0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 50px;
+}
+.btn{
+    width: 70px;
+    margin-left:20px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: 20px;
+}
+.counterValue{
+    padding-bottom: 20px;
+    color: rgba(64, 234, 57, 0.8);
+
+}
+
+.increment{
+    background-color: orange;
+    font-weight: bold;
+}
+.decrement{
+    background-color: rgb(132, 0, 255);
+    color: black;
+    font-weight: bold;
+}
+.decrement:disabled{
+    background-color: darkturquoise;
+}
